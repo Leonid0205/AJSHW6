@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap')
+@import 'vars'
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+.center
+    padding-left: calc( 50% - $widthSite / 2 )
+    padding-right: calc( 50% - $widthSite / 2 )
+
+.feturedItems-top
+    display: flex
+    flex-wrap: wrap
+    flex-direction: column
+    align-items: center
+    gap: 6px
+    margin-bottom: 48px
+
+    &__title
+        color: $colorTopTitle
+        font-family: 'Lato', sans-serif
+        font-size: 30px
+        font-style: normal
+        font-weight: 400
+        line-height: normal
+
+    &__text
+        color: $colorTopText
+        font-family: 'Lato', sans-serif
+        font-size: 14px
+        font-style: normal
+        font-weight: 400
+        line-height: normal
+
+.feturedItems-box
+    margin: auto 0
+    display: flex
+    flex-wrap: wrap
+    gap: 30px
+
+.feturedItemsProducts-box
+    width: 360px
+    height: 587px
+    background-color: $backgroundColor
+
+.feturedItems__Product__description
+    padding: 16px 24px
+    display: flex
+    flex-wrap: wrap
+    gap: 16px
+
+    &__title
+        color: $colorTitle
+        font-family: 'Lato', sans-serif
+        font-size: 13px
+        font-style: normal
+        font-weight: 400
+        line-height: normal
+
+    &__text
+        color: $colorText
+        font-family: 'Lato', sans-serif
+        font-size: 14px
+        font-style: normal
+        font-weight: 300
+        line-height: normal
+
+    &__price
+        color: $colorPrice
+        font-family: 'Lato', sans-serif
+        font-size: 16px
+        font-style: normal
+        font-weight: 400
+        line-height: normal
